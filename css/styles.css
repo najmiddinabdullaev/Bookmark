@@ -164,6 +164,38 @@ img{
 }
 
 
+/* SECTION */
+
+.section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.section__info {
+  width: 100%;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.section__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 52px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.section__description {
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
 /* SITENAV */
 
 .sitenav{
