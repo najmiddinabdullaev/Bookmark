@@ -74,3 +74,147 @@ img{
 .main.content{
   flex-grow: 1;
 }
+
+
+/* BUTTON */
+
+.button {
+  display: inline-block;
+  padding: 8px 22px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 2px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button:active{
+  opacity: 0.6;
+}
+
+.button--red {
+  background-color: var(--red);
+  color: #fff;
+}
+
+.button--red:hover{
+  border-color: var(--red);
+  color: var(--red) ;
+  background-color: #fff;
+}
+
+.button--blue{
+  background-color: var(--blue);
+  color: #fff;
+}
+
+.button--blue:hover{
+  border-color: var(--blue);
+  color: var(--blue);
+  background-color: #fff;
+}
+
+.button--grey{
+  background-color: #7f7f7f;
+  color: var(--text-color);
+}
+
+.button--grey{
+  border-color: #5b6074;
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+.button--block{
+  display: block;
+  width: 100%;
+}
+
+.button--site-header{
+  padding: 10px 31px;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+}
+
+/* LOGO */
+.logo {
+  display: block;
+  text-decoration: none;
+}
+
+.logo:hover{
+  opacity: 0.8;
+}
+
+.logo:active{
+  opacity: 0.6;
+}
+
+.logo__img {
+  display: block;
+  width: 149px;
+  height: 25px;
+  object-fit: contain;
+}
+
+
+/* SITENAV */
+
+.sitenav{
+  font-size: 13px;
+  line-height: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.sitenav__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 48px;
+}
+
+.sitenav__link {
+  display: flex;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.sitenav__link:hover{
+  color: var(--red);
+}
+
+.sitenav__link:active{
+  opacity: 0.6;
+}
+
+
+/* SITE-HEADER */
+
+.site-header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-transform: uppercase;
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__logo {
+  margin-right: auto;
+}
+
+.site-header__sitenav {
+  margin-right: 48px;
+}
