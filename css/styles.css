@@ -241,8 +241,20 @@ img{
 }
 
 .feature-tab-panel__img {
-  margin-right: 124px;
+  margin-right: 30px;
   object-fit: contain;
+}
+
+.feature-tab-panel__img--manager{
+  margin-right: 125px;
+}
+
+.feature-tab-panel__img--simple{
+  margin-right: 115px;
+}
+
+.feature-tab-panel__img--sharing{
+  margin-right: 145px;
 }
 
 .feature-tab-panel__info {
