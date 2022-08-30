@@ -241,7 +241,7 @@ img{
 }
 
 .feature-tab-panel__img {
-  margin-right: 30px;
+  margin-right: 124px;
   object-fit: contain;
 }
 
@@ -310,7 +310,7 @@ img{
 
 /* TABS-PANELS */
 
-.tabs__panels {
+.tabpanels {
   padding-top: 75px;
   padding-bottom: 165px;
   background-image: url(../img/blue-pill-bg.svg);
@@ -318,11 +318,11 @@ img{
   background-position: calc(50% - 580px) 156px;
 }
 
-.tabs__panel {
+.tabpanels__item {
   display: none;
 }
 
-.tabs__item--active{
+.tabpanels__item--active{
   display: block;
 }
 
