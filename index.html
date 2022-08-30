@@ -74,9 +74,12 @@
 
           <!-- TABS-LIST -->
           <ul class="tabs__list">
-            <li class="tabs_item tabs__item--active"><a class="tabs__link" href="#feature-simple-bookmarking">Simple Bookmarking</a></li>
-            <li class="tabs_item"><a class="tabs__link" href="#feature-speedy-searching">Speedy Searching</a></li>
-            <li class="tabs_item"><a class="tabs__link" href="#feature-easy-sharing">Easy Sharing</a></li>
+            <li class="tabs__item tabs__item--active">
+              <a class="tabs__link js-tab-link" href="#feature-simple-bookmarking" data-tab-target="#feature-simple-bookmarking">Simple Bookmarking</a></li>
+            <li class="tabs__item">
+              <a class="tabs__link js-tab-link" href="#feature-speedy-searching" data-tab-target="#feature-speedy-searching">Speedy Searching</a></li>
+            <li class="tabs__item">
+              <a class="tabs__link js-tab-link" href="#feature-easy-sharing" data-tab-target="#feature-easy-sharing">Easy Sharing</a></li>
           </ul>
           </div>
          </div>
@@ -85,7 +88,7 @@
 
           <div class="tabs__panels">
             <div class="container">
-              <div class="tabs__panel tabs__item--active" id="feature-simple-bookmarking">
+              <div class="tabs__panel tabs__panel--active" id="feature-simple-bookmarking">
                 <section class="feature-tab-panel">
                   <img class="feature-tab-panel__img" src="img/feature-simple-bookmarking.svg" alt="Bookmark manager illustration" width="536" height="346">
                   <div class="feature-tab-panel__info">
@@ -95,6 +98,7 @@
                   </div>
                 </section>
               </div>
+
               <div class="tabs__panel" id="feature-speedy-searching">
                 <section class="feature-tab-panel">
                   <img class="feature-tab-panel__img" src="img/feature-speedy-searching.svg" alt="Bookmark search interface" width="468" height="393">
@@ -105,6 +109,7 @@
                   </div>
                 </section>
               </div>
+
               <div class="tabs__panel" id="feature-easy-sharing">
                 <section class="feature-tab-panel">
                   <img class="feature-tab-panel__img" src="img/feature-easy-sharing.svg" alt="Bookmark share illustration" width="440" height="380">
@@ -142,5 +147,6 @@
     </section>
   </main>
 
+  <script src="/js/main.js"></script>
 </body>
 </html>
