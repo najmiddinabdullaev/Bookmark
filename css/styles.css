@@ -618,3 +618,95 @@ img{
   width: 100%;
   margin-bottom: 54px;
 }
+
+
+/* SUBSCRIPTION */
+
+.subscription {
+  padding-top: 58px;
+  padding-bottom: 74px;
+  background-color: var(--blue);
+  color: #fff;
+}
+
+.subscription__inner{
+  width: 100%;
+  max-width: 445px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.subscription__count-text {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 13px;
+  line-height: 40px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.subscription__heading {
+  margin-top: 0;
+  margin-bottom: 36px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.subscription__form {
+  display: flex;
+}
+
+.subscription__field-wrapper {
+  position: relative;
+  width: 300px;
+  margin-right: 16px;
+}
+
+.subscription__field {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 8px 20px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.subscription__field:not(:focus):not(:placeholder-shown):invalid{
+  padding-right: 52px;
+  border-color: var(--red);
+  background-image: url(../img/error-disc.svg);
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.subscription__error {
+  position: absolute;
+  left: 0;
+  top: calc(100% - 3px);
+  display: none;
+  width: 100%;
+  padding: 4px 12px 16px;
+  border-radius: 0 0 5px 5px;
+  background-color: var(--red);
+  color: #fff;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 500;
+  text-align: left;
+  font-style: italic;
+}
+
+.subscription__field:not(:focus):not(:placeholder-shown):invalid ~ .subscription__error{
+  display: block;
+}
+
+
+.subscription__field:focus + .subscriprion-error,
+.subscription__field:valid + .subscription-error,
+.subscription__field:placeholder-shown + .subscription-error{
+  display: block;
+}
